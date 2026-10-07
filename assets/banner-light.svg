@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="t">
+  <title id="t">Никита Витченко — веб-разработчик</title>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#d0d7de"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0969da" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#0969da"/>
+      <stop offset="1" stop-color="#1a7f37"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="278" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="278" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <g clip-path="url(#card)">
+    <rect x="600" y="0" width="600" height="280" fill="url(#dots)"/>
+    <rect x="600" y="0" width="600" height="280" fill="url(#fade)"/>
+  </g>
+
+  <g font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <text x="64" y="88" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="18" fill="#59636e">~/enotik0812 $ whoami</text>
+    <text x="64" y="150" font-size="54" font-weight="700" fill="#1f2328">Никита Витченко</text>
+    <text x="64" y="194" font-size="24" fill="#59636e">Веб-разработчик · сайты, сервисы, серверы</text>
+    <text x="64" y="236" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#0969da">php · javascript · wordpress · bitrix · docker · linux</text>
+  </g>
+
+  <polyline fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+    points="760,150 840,150 860,150 872,118 886,186 900,96 914,170 926,150 1010,150 1022,132 1034,166 1046,150 1126,150"/>
+  <circle cx="1126" cy="150" r="7" fill="#1a7f37"/>
+  <circle cx="1126" cy="150" r="7" fill="none" stroke="#1a7f37" stroke-width="2">
+    <animate attributeName="r" values="7;22" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1126" y="204" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" fill="#59636e">online</text>
+</svg>
